@@ -136,5 +136,9 @@ document.getElementById("btnTinhTienTip").addEventListener("click",function(){
     document.getElementById("txtThongBaoTienTip").innerHTML = "số tiền tìm được "+ ketQua ;
 });
 
+function themNguoiDung(){
+    console.log("nghuyvi thêm người dùng");
+};
+
 
 
