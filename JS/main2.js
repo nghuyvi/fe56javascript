@@ -137,7 +137,8 @@ document.getElementById("btnTinhTienTip").addEventListener("click",function(){
 });
 
 function themNguoiDung(){
-    console.log("nghuyvi thêm người dùng");
+    console.log("huyvi123");
+    console.log("thêm function themNguoiDung;")
 };
 
 
