@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE56 Javascript</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <input id="txtInput" type="text" placeholder="" value="Cybersoft">
+    <p id="pText">Huỳnh Thị Trúc Nữ</p>
+    <button id="btnClick--1" onclick="eventClick()">Click 1</button>
+    <button id="btnClick--2">Click 2</button>
+    <button id="btnClick--3">Click 3</button>
+
+    <div id="divContent">Nội dung trước khi thay đổi</div>
+    <button id="btnNhanEmDi">Nhấn em đi</button>
+    <button id="btnHidden">Ẩn</button>
+    <button id="btnShow">Hiện</button>
+    <button id="btnDisable">Disable button Nhấn em đi</button>
+
+    <br>
+    <img id="imgBulb" src="./img/pic_bulboff.gif" alt="">
+    <button id="btnOff" class=" btn btn-danger">Off</button>
+    <button id="btnOn" class="btnOn btn btn-success">On</button>
+
+    .<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class=" form-group">
+                  <label for="">Username</label>
+                  <input type="text" name="" id="inputUser" class=" form-control" placeholder="input username" aria-describedby="helpId">
+                </div>
+                <div class=" form-group">
+                    <label for="">Password</label>
+                    <input type="text" name="" id="inputPass" class=" form-control" placeholder="input password" aria-describedby="helpId">
+                  </div>
+                  <button id="btnLogin" class=" btn btn-success">Login</button>
+            </div>
+            <div class="col-md-6">
+                <h1 id="loginSuccess" class="d-none">LOGIN SUCCESS</h1>
+                <h1 id="loginFall" class="d-none">LOGIN FALL</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Tính tiền típ</h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="">Tổng tiền thanh toán</label>
+              <input id="txtTongTien" type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+              <div class="form-group">
+                <label for="">Bạn muốn típ bao nhiêu</label>
+                <select class="form-control" id="slPhanTramTip">
+                  <option value="0">Chọn để tiếp</option>
+                  <option value="30">30%</option>
+                  <option value="20">20%</option>
+                  <option value="15">15%</option>
+                  <option value="10">10%</option>
+                  <option value="5">5%</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Muốn share bao nhiêu người</label>
+              <input id="txtSoNguoi" type="text" class="form-control" />
+            </div>
+            <button id="btnTinhTienTip" class="btn btn-danger">Tính tiền</button>
+          </div>
+          <div class="col-sm-6" id="txtThongBaoTienTip" style="display: none">Thông báo tiền típ</div>
+        </div>
+      </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="./JS/main2.js"></script>
+</body>
+
+</html>
